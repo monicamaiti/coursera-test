@@ -1,9 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>hello coursera!</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> BOOTSTRAP STARTER PAGE</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<style>
+		.row{
+			margin-bottom:15px;
+		}
+		.row > div {
+			border:2px solid red;
+			background-color:gray;
+		}
+		
+	</style>
 </head>
 <body>
-<h1>hello coursera!Its a great course!</h1>
-</body>
+
+	<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-4 col-sm-6">col 1</div>
+		<div class="col-md-4 col-sm-6">col 2</div>
+		<div class="col-md-4 col-sm-6">col 3</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4 col-sm-6">col 1</div>
+		<div class="col-md-4 col-sm-6">col 2</div>
+		<div class="col-md-4 col-sm-6">col 3</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-6">col 1</div>
+		<div class="col-xs-6">col 2</div>
+		<div class="col-xs-6">col 3</div>
+	</div>
+</div>
+
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	</body>
 </html>
